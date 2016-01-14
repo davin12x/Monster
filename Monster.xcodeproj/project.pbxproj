@@ -12,6 +12,8 @@
 		0A0C95261C45C27000C0DAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C95241C45C27000C0DAF1 /* Main.storyboard */; };
 		0A0C95281C45C27000C0DAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C95271C45C27000C0DAF1 /* Assets.xcassets */; };
 		0A0C952B1C45C27000C0DAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0C95291C45C27000C0DAF1 /* LaunchScreen.storyboard */; };
+		0A0C95331C460CE800C0DAF1 /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C95321C460CE800C0DAF1 /* DragImage.swift */; };
+		0A0C95351C46148A00C0DAF1 /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0C95341C46148A00C0DAF1 /* MonsterImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0A0C95271C45C27000C0DAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0C952A1C45C27000C0DAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A0C952C1C45C27000C0DAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0C95321C460CE800C0DAF1 /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		0A0C95341C46148A00C0DAF1 /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0A0C95271C45C27000C0DAF1 /* Assets.xcassets */,
 				0A0C95291C45C27000C0DAF1 /* LaunchScreen.storyboard */,
 				0A0C952C1C45C27000C0DAF1 /* Info.plist */,
+				0A0C95321C460CE800C0DAF1 /* DragImage.swift */,
+				0A0C95341C46148A00C0DAF1 /* MonsterImage.swift */,
 			);
 			path = Monster;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0C95351C46148A00C0DAF1 /* MonsterImage.swift in Sources */,
 				0A0C95231C45C27000C0DAF1 /* ViewController.swift in Sources */,
+				0A0C95331C460CE800C0DAF1 /* DragImage.swift in Sources */,
 				0A0C95211C45C27000C0DAF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 				0A0C95311C45C27000C0DAF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
