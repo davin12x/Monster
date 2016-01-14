@@ -22,12 +22,14 @@ class DragImage : UIImageView{
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
        originalPosition = self.center
-        print("Touch Happened")
+        print(originalPosition)
     }
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if let touch = touches.first{
             let position = touch.locationInView(self.superview)
+            
             self.center = CGPointMake(position.x, position.y)
+            print(self.center ,"Touches moved to")
         }
     }
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
